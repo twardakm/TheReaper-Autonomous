@@ -1,20 +1,19 @@
-﻿Build started 2015-04-24 18:43:02.
+﻿Build started 2015-04-26 11:45:20.
      1>Project "D:\OneDrive\Dokumenty\Visual Studio 2013\Projects\TheReaper-Autonomous\TheReaper-Autonomous\TheReaper-Autonomous.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Programs\Microsoft Visual Studio Ultimate 2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Programs\Qt\5.4\msvc2013_opengl\include /I.\GeneratedFiles\Debug /ID:\Programs\Qt\5.4\msvc2013_opengl\include\QtCore /ID:\Programs\Qt\5.4\msvc2013_opengl\include\QtGui /ID:\Programs\Qt\5.4\msvc2013_opengl\include\QtWidgets /ID:\Programs\OpenCV\build\x86\vc12\..\..\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_mainwindow.cpp main.cpp mainwindow.cpp
-         moc_mainwindow.cpp
-         main.cpp
+         D:\Programs\Microsoft Visual Studio Ultimate 2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Programs\Qt\5.4\msvc2013_opengl\include /I.\GeneratedFiles\Debug /ID:\Programs\Qt\5.4\msvc2013_opengl\include\QtCore /ID:\Programs\Qt\5.4\msvc2013_opengl\include\QtGui /ID:\Programs\Qt\5.4\msvc2013_opengl\include\QtWidgets /ID:\Programs\OpenCV\build\x86\vc12\..\..\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mainwindow.cpp
          mainwindow.cpp
-         Generating Code...
        Link:
          D:\Programs\Microsoft Visual Studio Ultimate 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OneDrive\Dokumenty\Visual Studio 2013\Projects\TheReaper-Autonomous\Win32\Debug\\TheReaper-Autonomous.exe" /NOLOGO /LIBPATH:D:\Programs\Qt\5.4\msvc2013_opengl\lib /LIBPATH:D:\Programs\OpenCV\build\x86\vc12\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OneDrive\Dokumenty\Visual Studio 2013\Projects\TheReaper-Autonomous\Win32\Debug\TheReaper-Autonomous.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OneDrive\Dokumenty\Visual Studio 2013\Projects\TheReaper-Autonomous\Win32\Debug\TheReaper-Autonomous.lib" /MACHINE:X86 /SAFESEH "Debug\TheReaper-Autonomous.res"
          Debug\moc_mainwindow.obj
          Debug\qrc_mainwindow.obj
+         Debug\LineFollower.obj
          Debug\main.obj
          Debug\mainwindow.obj
+         Debug\TCP.obj
          TheReaper-Autonomous.vcxproj -> D:\OneDrive\Dokumenty\Visual Studio 2013\Projects\TheReaper-Autonomous\Win32\Debug\TheReaper-Autonomous.exe
      1>Done Building Project "D:\OneDrive\Dokumenty\Visual Studio 2013\Projects\TheReaper-Autonomous\TheReaper-Autonomous\TheReaper-Autonomous.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.98
+Time Elapsed 00:00:01.62

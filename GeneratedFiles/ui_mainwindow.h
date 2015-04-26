@@ -14,6 +14,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
@@ -26,6 +27,7 @@ class Ui_MainWindowClass
 {
 public:
     QWidget *centralWidget;
+    QLabel *videoQt;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -34,15 +36,20 @@ public:
     {
         if (MainWindowClass->objectName().isEmpty())
             MainWindowClass->setObjectName(QStringLiteral("MainWindowClass"));
-        MainWindowClass->resize(1024, 768);
-        MainWindowClass->setMinimumSize(QSize(1024, 768));
-        MainWindowClass->setMaximumSize(QSize(1024, 768));
+        MainWindowClass->resize(640, 480);
+        MainWindowClass->setMinimumSize(QSize(640, 480));
+        MainWindowClass->setMaximumSize(QSize(640, 480));
         centralWidget = new QWidget(MainWindowClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        videoQt = new QLabel(centralWidget);
+        videoQt->setObjectName(QStringLiteral("videoQt"));
+        videoQt->setGeometry(QRect(0, 0, 640, 480));
+        videoQt->setMinimumSize(QSize(640, 480));
+        videoQt->setMaximumSize(QSize(640, 480));
         MainWindowClass->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindowClass);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 1024, 21));
+        menuBar->setGeometry(QRect(0, 0, 640, 21));
         MainWindowClass->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindowClass);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -59,6 +66,7 @@ public:
     void retranslateUi(QMainWindow *MainWindowClass)
     {
         MainWindowClass->setWindowTitle(QApplication::translate("MainWindowClass", "MainWindow", 0));
+        videoQt->setText(QString());
     } // retranslateUi
 
 };
